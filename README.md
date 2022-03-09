@@ -1,4 +1,4 @@
-Hello!
+Vue-Vite-Express App
 
 This application makes use of the following technologies and technological decisions:
 
