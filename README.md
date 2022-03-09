@@ -46,7 +46,7 @@ Copy the `.env.example` contents in a `.env` file & fill in the data
    - Navigate to the frontend application directory
    - run:
      - `docker build . -t <name-this-image> -f Dockerfile.dev` (to build the development image)
-     - `docker build . -t `<name-this-image>` -f Dockerfile.prod` (to build the production image)
+     - `docker build . -t <name-this-image> -f Dockerfile.prod` (to build the production image)
    - Once you have the Docker image
      - run:
        - Dev: `docker run -v /app/src/node_modules -v $(pwd)/.:/app/src -d -p 3000:3000 -t --name <name-this-container> <name-of-dev-image>`
