@@ -1,0 +1,47 @@
+# Post response
+POST http://localhost:5000/api HTTP/1.1
+Content-type: application/json
+
+{
+  "mood": 1
+}
+
+###
+
+# Post response
+POST http://localhost:5000/api HTTP/1.1
+Content-type: application/json
+
+{
+  "mood": 2
+}
+
+###
+
+# Post response
+POST http://localhost:5000/api HTTP/1.1
+Content-type: application/json
+
+{
+  "mood": 3
+}
+
+###
+
+# Post response
+POST http://localhost:5000/api HTTP/1.1
+Content-type: application/json
+
+{
+  "mood": 4
+}
+
+###
+
+# Post response
+POST http://localhost:5000/api HTTP/1.1
+Content-type: application/json
+
+{
+  "mood": 5
+}
